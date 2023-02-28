@@ -11,7 +11,7 @@
 2. CSS
 3. JS
 
-[Currency - Conventer](https://rafal-schwichtenberg.github.io/homepage/currency%20conventer%202/)
+[Currency - Conventer](https://rafal-schwichtenberg.github.io/currency-conventer/)
 
 
 
