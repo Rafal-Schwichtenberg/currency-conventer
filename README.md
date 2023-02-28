@@ -15,4 +15,4 @@
 
 
 
-###Author Rafal Schwichtenberg`````# currency-conventer
+###Author Rafal Schwichtenberg
