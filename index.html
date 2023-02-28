@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta property="og:image" content="images/share.png">
+  <title>Kantor</title>
+  <link rel="icon" href="images/1141.jpg">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="css/style.css">
+  <script defer src="js/script.js"></script>
+
+</head>
+
+<body class="body">
+  <div class="container">
+    <form class="form js-form">
+      <fieldset>
+        <legend class="form__title"><strong>KURS WALUT</strong> </legend>
+        <p>
+          <label class="form__label">
+            <span class="form__labelText">Wpisz kwote w PLN</span>
+            <input class="form__input js-pln" placeholder="Kwota" type="number" value="0.1" min="0.1" required step="0.01">
+          </label>
+        </p>
+        <p>
+          <label class="form__label">
+            <span class="form__labelText">Wybierz walute</span>
+            <select class=" js-currency">
+              <option value="USD">Dolar amerykański</option>
+              <option value="EUR">Euro</option>
+              <option value="GBP">Funt brytyjski</option>
+            </select>
+
+          </label>
+        </p>
+        <p>
+          <label class="form__label">
+            <span class="form__labelText">Twoja należność</span>
+            <input class="form__last js-result" type="text" readonly placeholder="">
+          </label>
+        </p>
+        <button class="form__button js-button">Przelicz</button>
+      </fieldset>
+    </form>
+
+  </div>
+
+</body>
+
+</html>
